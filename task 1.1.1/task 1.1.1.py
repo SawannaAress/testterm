@@ -28,9 +28,10 @@ dt1 = det(Xout, alphas1, Xp, Xvs)
 dt2 = det(Xout, alphas2, Xp, Xvs)
 t1 = Xp + dt1
 t2 = Xp + dt2
-print('n = Xп-Xпог (или 0, если Xпог>Xп); Xп =', Xout)
+print('n = Xп-Xпог (или 0, если Xпог>Xп); n =', Xout)
 print('dt = n*a*(t - tвс)')
 print('t = Xп + dt')
 print('Для a = 0.000168, dt=', dt1, '; t =', t1)
 print('Для a = 0.000158, dt=', dt2, '; t =', t2)
+
 lastkey()
