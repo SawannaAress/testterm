@@ -71,4 +71,5 @@ if a == 1:
     Pktest1 = Pnp1*(1+betta*(Xvp1))/(1+betta*Xnp1)
     print('По формуле для Pк: =', Pktest1)
     print ('Отсюда dP =', Pktest1-Pnp1)
+print('')
 lastkey()
